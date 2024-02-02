@@ -1,0 +1,569 @@
+{
+    "intents": [
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems \u00e2\u20ac\u201c the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I\u00e2\u20ac\u2122ve lost along the way, I think to myself, maybe a career as a tour guide wasn\u00e2\u20ac\u2122t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name",
+                "name of you"
+            ],
+            "responses": [
+                "I am ANDIO pet, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by ANDIO."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "andio",
+            "patterns": [
+                "what is andio",
+                "who is andio",
+                "who is andio",
+                "andio"
+            ],
+            "responses": [
+                "Head over to our any of his social profiles to find out www.andio.com"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact andio",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creators by the below contact page"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it\u00e2\u20ac\u2122s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "service",
+            "patterns": [
+                "Do you offer continuous website maintenance services?",
+                "Are ongoing website maintenance services part of your offerings?",
+                "Do you provide website maintenance services on an ongoing basis?",
+                "Is ongoing website maintenance included in your service offerings?",
+                "Are you equipped to handle ongoing maintenance for websites?"
+            ],
+            "responses": [
+                "Yes, we do offer ongoing website maintenance services to ensure your website stays up-to-date and functions smoothly.",
+                "Absolutely, ongoing website maintenance is a part of our comprehensive service package.",
+                "Certainly, ongoing website maintenance services are a key component of what we provide."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "latest tech trends",
+                "emerging technologies",
+                "what technologies do you use",
+                "tech stack",
+                "innovations in technology"
+            ],
+            "responses": [
+                "We stay updated on the latest tech trends to deliver cutting-edge solutions. Is there a particular technology you're interested in?"
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "latest tech trends",
+                "emerging technologies",
+                "what technologies do you use",
+                "tech stack",
+                "innovations in technology"
+            ],
+            "responses": [
+                "We stay updated on the latest tech trends to deliver cutting-edge solutions. Is there a particular technology you're interested in?"
+            ]
+        },
+        {
+            "tag": "services_offered",
+            "patterns": [
+                "what services do you offer",
+                "list of your services",
+                "how can you help me",
+                "services provided by your startup",
+                "what do you specialize in"
+            ],
+            "responses": [
+                "We offer a range of services including but not limited to software development, design, and consultancy. Can I provide more details on a specific service?"
+            ]
+        },
+        {
+            "tag": "testimonials",
+            "patterns": [
+                "client reviews",
+                "customer feedback",
+                "what do clients say about you",
+                "success stories",
+                "client testimonials"
+            ],
+            "responses": [
+                "Our clients have shared positive feedback about their experiences. Would you like to hear some testimonials or have specific questions?"
+            ]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": [
+                "how can I contact you",
+                "contact information",
+                "give me your email",
+                "phone number",
+                "office address"
+            ],
+            "responses": [
+                "You can reach us at [your email] or [phone number]. Our office is located at [your address]. How can we assist you further?"
+            ]
+        },
+        {
+            "tag": "team",
+            "patterns": [
+                "tell me about your team",
+                "who is behind your startup",
+                "introduce your team members",
+                "team composition",
+                "meet the founders"
+            ],
+            "responses": [
+                "Our dynamic team is comprised of skilled professionals passionate about delivering innovative solutions. Would you like to know more about specific team members or roles?"
+            ]
+        },
+        {
+            "tag": "client_onboarding",
+            "patterns": [
+                "how can I become a client",
+                "process to start a project",
+                "onboarding for new clients",
+                "steps to initiate a project",
+                "become a client"
+            ],
+            "responses": [
+                "To get started as a client, you can reach out to us through [contact details] or explore our services on our website. We look forward to discussing your project!"
+            ]
+        },
+        {
+            "tag": "industry_expertise",
+            "patterns": [
+                "your experience in industries",
+                "domains you specialize in",
+                "industry-specific projects",
+                "experience in diverse sectors",
+                "specialization areas"
+            ],
+            "responses": [
+                "We have extensive experience across various industries, including [list of industries]. Our expertise allows us to tailor solutions to specific industry needs. How may we assist you?"
+            ]
+        },
+        {
+            "tag": "collaborations",
+            "patterns": [
+                "partnerships",
+                "collaborate with your startup",
+                "business collaborations",
+                "opportunities for partnerships",
+                "partner with you"
+            ],
+            "responses": [
+                "We are open to collaborations and partnerships. If you have an idea or proposal, feel free to reach out, and let's explore how we can work together for mutual benefit."
+            ]
+        },
+        {
+            "tag": "security_privacy",
+            "patterns": [
+                "how secure is your platform",
+                "privacy policies",
+                "data protection measures",
+                "security protocols",
+                "ensure client data safety"
+            ],
+            "responses": [
+                "Ensuring the security and privacy of client data is a top priority. We have robust security measures and adhere to strict privacy policies to safeguard your information."
+            ]
+        }
+    ]
+}
